@@ -24,6 +24,4 @@ Example with all params)
     minWidth: 280,
     overlay: true
   });
-    
-    
-d
+
