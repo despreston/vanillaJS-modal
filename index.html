@@ -1,0 +1,20 @@
+<html>
+<head>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	<script src='modal.js'></script>
+</head>
+<body>
+	<button id='launchModalButton' type='button'>Launch Modal</button>
+	<script>
+		var myModal = new Modal({
+			content: 'test'
+		});
+
+		var launchModal = document.getElementById('launchModalButton');
+
+		launchModal.addEventListener('click', function() {
+			myModal.open();
+		});
+	</script>
+</body>
+</html>
